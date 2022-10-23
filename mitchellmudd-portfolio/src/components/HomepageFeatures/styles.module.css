@@ -30,3 +30,41 @@
   text-align: center;
   font-weight: bold;
 }
+
+.plugSkills:hover {
+  border-color: gray;
+}
+
+.tag {
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.5rem 0.3rem;
+  border: 1px solid var(--docusaurus-tag-list-border);
+  transition: border var(--ifm-transition-fast);
+  font-size: 90%;
+  text-align: center;
+}
+
+.tagList {
+  display: inline;
+  padding: 0px !important;
+  margin-left: .5rem !important;
+  list-style-type: none;
+}
+
+.tagItem {
+  display: inline-block;
+  margin: 0px 0.4rem 0.5rem 0px;
+  list-style-type: none;
+}
+
+.tagLabel {
+  font-size: 90%;
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.5rem 0.3rem;
+  border: 1px solid var(--docusaurus-tag-list-border);
+  transition: border var(--ifm-transition-fast);
+}
+
+.tagLabel:hover {
+  border-color: gray;
+}
