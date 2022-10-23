@@ -84,8 +84,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Skills',
+                to: '/docs/Skills/My%20Favorite%20Tech%20Stack',
               },
             ],
           },
