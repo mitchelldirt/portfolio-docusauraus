@@ -97,7 +97,7 @@ export default function HomepageFeatures() {
     <div className={styles.plugSkillsContainer}>
     
 
-      <a href='https://portfolio-docusauraus.vercel.app/docs/Skills/My%20Favorite%20Tech%20Stack' className={styles.plugSkills}>Check out my skills!</a>
+      <a href='https://mitchellmudd.tech/docs/Skills/My%20Favorite%20Tech%20Stack' className={styles.plugSkills}>Check out my skills!</a>
   </div>
   </>
   );
