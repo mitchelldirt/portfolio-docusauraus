@@ -1,4 +1,7 @@
 # My ♥️ Tech Stack
+
+These are my favorite tools and pieces of tech to use! They're the ones that I'm actively working on skilling up in. I also **LOVE** learning new things so this list will be ever changing.
+
 <div style={{display: 'flex', gap: '50px'}}>
 <skill>
 
