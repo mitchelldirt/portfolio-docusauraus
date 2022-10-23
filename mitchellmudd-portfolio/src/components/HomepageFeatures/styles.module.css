@@ -5,7 +5,28 @@
   width: 100%;
 }
 
-.featureSvg {
-  height: 200px;
-  width: 200px;
+.featureImg {
+  height: 300px;
+  width: 400px;
+}
+
+.linkIcon {
+  margin-left: 1em;
+  padding-top: 1em;
+}
+
+.plugSkillsContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3%;
+}
+
+.plugSkills {
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.5rem 0.3rem;
+  border: 1px solid var(--docusaurus-tag-list-border);
+  transition: border var(--ifm-transition-fast);
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
 }

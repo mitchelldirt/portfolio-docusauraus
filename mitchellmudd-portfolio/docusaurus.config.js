@@ -107,7 +107,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Proudly built with Docusaurus.`,
+        copyright: `Proudly built with Docusaurus. <img style='height: 16px; width: 16px;' src='img/docusaurus.png' />`,
       },
       prism: {
         theme: lightCodeTheme,
