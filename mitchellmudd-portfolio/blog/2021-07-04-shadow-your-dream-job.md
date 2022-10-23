@@ -1,5 +1,5 @@
 ---
-slug: first-blog-post
+slug: shadow-your-dream-job
 title: You should shadow your dream job
 authors: Mitchell 
 tags: [career]
