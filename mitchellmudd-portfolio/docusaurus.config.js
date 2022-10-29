@@ -87,6 +87,10 @@ const config = {
                 label: 'Hashnode',
                 href: 'https://hashnode.com/@mitchelldirt',
               },
+              {
+                label: 'Email Me',
+                href: 'mailto:developer@mitchellmudd.dev',
+              },
             ],
           },
           {
