@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Hi, I\'m Mitchell Mudd!',
   tagline: 'A Web Developer :)',
-  url: 'https://mitchellmudd.tech',
+  url: 'https://mitchellmudd.dev',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

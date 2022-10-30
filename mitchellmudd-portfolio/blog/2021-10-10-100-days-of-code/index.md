@@ -69,7 +69,7 @@ I'm writing this blog post/article to reflect on my first 100DaysOfCode challeng
 
 
 1.  [HTML + CSS Free Code Camp projects](https://www.freecodecamp.org/learn/responsive-web-design/) 
-2.  [Portfolio Website](https://www.mitchellmudd.tech/) 
+2.  [Portfolio Website](https://www.mitchellmudd.dev/) 
 3.  [Google home page (UI copy)](https://mitchelldirt.github.io/google-homepage-copy/) 
 4.  [Drum Kit Project](https://javascript30.com/) by  [@wesbos](https://twitter.com/wesbos) 
 5.  [Rock Paper Scissors](https://mitchelldirt.github.io/rock-paper-scissors/) 
