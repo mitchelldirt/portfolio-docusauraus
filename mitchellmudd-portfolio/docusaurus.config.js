@@ -77,7 +77,8 @@ const config = {
             items: [
               {
                 label: 'Mastadon',
-                href: 'https://fosstodon.org/web/@mitchelldirt'
+                href: 'https://fosstodon.org/@mitchelldirt',
+                rel: 'me'
               },
               {
                 label: 'Twitter',
