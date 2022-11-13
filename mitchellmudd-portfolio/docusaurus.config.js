@@ -76,6 +76,10 @@ const config = {
             title: 'Community',
             items: [
               {
+                label: 'Mastadon',
+                href: 'https://fosstodon.org/web/@mitchelldirt'
+              },
+              {
                 label: 'Twitter',
                 href: 'https://twitter.com/mitchelldirt',
               },
