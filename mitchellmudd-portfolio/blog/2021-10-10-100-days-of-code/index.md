@@ -5,8 +5,6 @@ authors: Mitchell
 tags: [career, learning]
 ---
 
-## Introduction
-
 I'm writing this blog post/article to reflect on my first 100DaysOfCode challenge and to prepare myself for the next one which I will be starting next week. I started my first 100DoC on the 30th of March 2021. At the time I was still working my way through the  [free code camp](https://www.freecodecamp.org/)  HTML & CSS projects and was finishing up a product showcase page about a fake mountain bike brand. I had just started  [The Odin Project](https://www.theodinproject.com/dashboard) curriculum and that along with my portfolio website is what I spent the majority of my time doing. While reading this you'll learn about what I worked on during my first 100DoC, what events transpired during that time to me personally, and what I plan to work on during my next 100DoC. Enjoy 😆!
 
 <!--truncate-->

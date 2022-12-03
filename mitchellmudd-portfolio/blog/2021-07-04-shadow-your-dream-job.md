@@ -5,8 +5,6 @@ authors: Mitchell
 tags: [career]
 ---
 
-## Calculator project:
-
 I started my calculator project on a plane bound for Seattle Washington. The funny thing was I worked on it for an hour and then got stuck because I couldn’t get the calculator grid to show up at all and had no internet on the plane to look up the issue. When I landed in Seattle that night I found out that the issue was...
 
 <!--truncate-->
