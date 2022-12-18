@@ -11,7 +11,7 @@ These are my favorite tools and pieces of tech to use! They're the ones that I'm
 <skill>
 
 ## Next.JS
-<img style={{background: "#fff", padding: "10px"}} height="128px" width="128px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"/>
+<img style={{background: "#fff", padding: "10px"}} height="128px" width="128px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"/>
 </skill>          
 </div>
 
