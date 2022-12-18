@@ -10,8 +10,8 @@ These are my favorite tools and pieces of tech to use! They're the ones that I'm
 </skill>
 <skill>
 
-## Express.js
-<img style={{background: "#fff", padding: "10px"}} height="128px" width="128px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
+## Next.JS
+<img style={{background: "#fff", padding: "10px"}} height="128px" width="128px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"/>
 </skill>          
 </div>
 

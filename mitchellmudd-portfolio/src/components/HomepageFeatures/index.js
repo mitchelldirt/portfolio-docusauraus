@@ -17,7 +17,7 @@ const FeatureList = [
         This app was all about reinforcing what I learned from the React Beta Documentation. The problem this app solves for me is my desire to rank cities that I may want to move to in the future! I didn't expect to add a backend to this, but found that it was necessary to get one of my APIs to function properly. Initially I used express, but then refactored it all to Next.JS so I wouldn't have to worry about getting a bill from Google Cloud. I'm very happy with the login system and incredibly proud of this project!
       </>
     ),
-    tags: ['React', 'NextJS', 'Serverless Functions', 'PostgreSQL', 'Supabase', 'ExpressJS', 'Google Cloud'],
+    tags: ['React', 'Next.JS', 'Serverless Functions', 'PostgreSQL', 'Supabase', 'Express.JS', 'Google Cloud'],
     githubLink: 'https://github.com/mitchelldirt/City-Ranker',
     projectLink: 'https://city-ranker-mitchelldirt.vercel.app/'
   },
