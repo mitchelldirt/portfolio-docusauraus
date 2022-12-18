@@ -14,12 +14,12 @@ const FeatureList = [
     imageLink: cityRanker,
     description: (
       <>
-        This app was all about reinforcing what I learned from the React Beta Documentation. This project was inspired by my love of different cities and comparing them; However, I also thought this could be useful for ranking cities that I may want to move to in the future! I didn't expect to add a backend to this, but found that it was necessary to get one of my APIs to function properly. I'm very happy with the login system (thank you Supabase) and incredibly proud of this project!
+        This app was all about reinforcing what I learned from the React Beta Documentation. The problem this app solves for me is my desire to rank cities that I may want to move to in the future! I didn't expect to add a backend to this, but found that it was necessary to get one of my APIs to function properly. Initially I used express, but then refactored it all to Next.JS so I wouldn't have to worry about getting a bill from Google Cloud. I'm very happy with the login system and incredibly proud of this project!
       </>
     ),
-    tags: ['React', 'Express.JS', 'PostgreSQL', 'Google Cloud', 'Vite', 'Supabase'],
+    tags: ['React', 'NextJS', 'Serverless Functions', 'PostgreSQL', 'Supabase', 'ExpressJS', 'Google Cloud'],
     githubLink: 'https://github.com/mitchelldirt/City-Ranker',
-    projectLink: 'https://city-ranker-o2tv2bm9c-mitchelldirt.vercel.app/'
+    projectLink: 'https://city-ranker-mitchelldirt.vercel.app/'
   },
   {
     title: 'Windmill Weather',
