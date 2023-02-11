@@ -130,7 +130,7 @@ Now that we have all of our dependencies and variables set up, we can create our
 2. We set the `Content-Type` header to `text/plain`. This is what we'll be sending back to the client
 3. We check if the request method is `POST`. If it is, we'll parse the form data with busboy
 4. If the form data is a file, we'll get the filename, encoding and mimeType from the info object
-5. We set the path to save the file
+5. We set the path to save the file. For me that was my home directory + `/Downloads` but you can change it to whatever you want/need.
 6. We save the file to the path we set in step 5
 7. If the form data is a field, we'll log the name and value of the field
 8. Finally we pipe the request to busboy to parse the form data
@@ -198,8 +198,7 @@ Then find the index.html file in your file system and open it in your browser. F
 
 ![done-parsing](./done-parsing-form.png)
 
-
-In your terminal you should see the following output along with a bunch of other logs from busboy.
+In your terminal you should see the following output along with a bunch of other logs from busboy. You'll also see a file the file you uploaded in your Downloads folder.
 
 ```bash
 Server running at http://127.0.0.1:3000/
@@ -238,13 +237,14 @@ else if (req.method === 'GET') {
 
 ## Conclusion
 
-In this tutorial we learned how to use busboy to parse form data in Node. We also learned how to save files to the file system. 
+In this tutorial we learned how to use busboy to parse form data in Node. We also learned how to save files to the file system.
 
 If you have any questions or comments, feel free to reach out to me on Twitter [@mitchelldirt](https://twitter.com/mitchelldirt) or by email at [developer@mitchellmudd.dev](mailto:developer@mitchellmudd.dev)
 
 Thanks so much for reading! 🎉
 
 ## Resources
+
 - This Net Ninja Series on how streams and buffers work in Node is fantastic. The whole series is great if you interested in learning more about Node.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GlybFFMXXmQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -252,4 +252,4 @@ Thanks so much for reading! 🎉
 - Here's a reference to unix terminal commands that you can use to navigate your file system and more. [Unix Commands](https://www.tjhsst.edu/~dhyatt/superap/unixcmd.html)
 - The [Busboy Documentation](https://github.com/mscdex/busboy) is great. It's actually where I got most of the javascript code for this tutorial.
 - Node's api documentation is great to keep on hand. Just make sure you pick the right version to view haha. [Node API Documentation](https://nodejs.org/api/)
-- Learn more about forms on MDN using the [MDN Forms](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms) series. 
+- Learn more about forms on MDN using the [MDN Forms](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms) series.
