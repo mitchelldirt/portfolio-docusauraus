@@ -2,10 +2,13 @@
 slug: files-busboy-node
 title: Handling File Inputs With Busboy in NodeJS
 authors: Mitchell
+image: './pexels-preston-zeller-15670.jpg'
 tags: [nodejs, javascript, file system, html]
 ---
 
 # Handling File Inputs With Busboy in NodeJS
+
+![Thumbnail](./pexels-preston-zeller-15670.jpg)
 
 In this post we'll be exploring how to use the busboy module to parse form data in Node.js. We'll be using the busboy module to parse form data from a file upload form. We'll also be using the file system module to save the file to the file system.
 
@@ -35,7 +38,9 @@ Finally run the following command to install the busboy module which we'll be us
 npm install busboy
 ```
 
-Inside of the folder you created, create a file called `index.js` and one called `index.html` and open them in your favorite text editor.
+Inside of the folder you created, create a file called `index.js` and one called `index.html` and open them in your favorite text editor...
+
+<!--truncate-->
 
 ## Writing the HTML
 
