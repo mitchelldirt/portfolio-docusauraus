@@ -203,7 +203,7 @@ In your terminal you should see the following output along with a bunch of other
 
 ```bash
 Server running at http://127.0.0.1:3000/
-File [file]: filename: test.png, encoding: 7bit, mimeType: text/plain
+File [avatar]: filename: test.png, encoding: 7bit, mimeType: image/png
 Field [name]: value: Mitchell
 Field [email]: value: mitchell@email.com
 Done parsing form!
