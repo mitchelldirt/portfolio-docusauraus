@@ -10,7 +10,7 @@ tags: [nodejs, javascript, file system, html]
 
 ![Explore how to handle multipart forms in nodeJS with busboy!](./pexels-preston-zeller-15670.jpg)
 
-In this post, we'll be exploring how to parse multipart form data in Node.js. We'll be using the busboy module to help us accomplish this! We'll also be using the file system module to save the file to the file system.
+In this post, we'll be exploring how to parse multipart form data in Node.js. We'll be using the busboy module to help us accomplish this! We'll also be using the file system module to save the file to your device.
 
 ## Getting Started
 
