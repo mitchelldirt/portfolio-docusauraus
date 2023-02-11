@@ -245,7 +245,10 @@ If you have any questions or comments, feel free to reach out to me on Twitter [
 Thanks so much for reading! 🎉
 
 ## Resources
-- [This Net Ninja Series](youtube.com/watch?v=glybffmxxmq&list=pl4cuxegkcc9gcy9lrvmj75z9marw4byyp) on how streams and buffers work in Node is fantastic. The whole series is great if you interested in learning more about Node.
+- This Net Ninja Series on how streams and buffers work in Node is fantastic. The whole series is great if you interested in learning more about Node.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GlybFFMXXmQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 - Here's a reference to unix terminal commands that you can use to navigate your file system and more. [Unix Commands](https://www.tjhsst.edu/~dhyatt/superap/unixcmd.html)
 - The [Busboy Documentation](https://github.com/mscdex/busboy) is great. It's actually where I got most of the javascript code for this tutorial.
 - Node's api documentation is great to keep on hand. Just make sure you pick the right version to view haha. [Node API Documentation](https://nodejs.org/api/)
