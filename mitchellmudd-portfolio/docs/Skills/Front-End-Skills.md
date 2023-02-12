@@ -3,8 +3,8 @@
 <div style={{display: 'flex', gap: '50px'}}>
 <skill>
 
-## React/Next.JS
-<img height="128px" width="128px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+## Typescript 
+<img height="128px" width="128px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
 </skill>
 <skill>
 
@@ -17,9 +17,8 @@
 <div style={{display: 'flex', gap: '50px'}}>
 <skill>
 
-## HTML/CSS
-<img height="64px" width="64px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
-<img height="64px" width="64px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+## React / Remix
+<img height="128px" width="128px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
 </skill>          
 <skill>
 

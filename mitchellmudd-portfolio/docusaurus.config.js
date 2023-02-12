@@ -57,7 +57,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'Skills/My Favorite Tech Stack',
+            docId: 'Skills/My-Favorite-Tech-Stack',
             position: 'left',
             label: 'Skills',
           },

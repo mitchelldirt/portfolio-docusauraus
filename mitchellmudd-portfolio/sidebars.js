@@ -14,7 +14,7 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   sidebar: {
-    'Skills': ['Skills/My Favorite Tech Stack', 'Skills/Tools I Like Using', 'Skills/Front End Skills', 'Skills/Back End Skills', 'Skills/Soft Skills']
+    'Skills': ['Skills/My-Favorite-Tech-Stack', 'Skills/Tools-I-Like-Using', 'Skills/Front-End-Skills', 'Skills/Back-End-Skills', 'Skills/What-I-want-to-learn-in-2023', 'Skills/Soft-Skills']
   }
 };
   // By default, Docusaurus generates a sidebar from the docs folder structure
