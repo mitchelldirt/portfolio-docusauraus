@@ -107,7 +107,7 @@ const config = {
               },
               {
                 label: 'Skills',
-                to: '/docs/Skills/My%20Favorite%20Tech%20Stack',
+                to: '/docs/Skills/My-Favorite-Tech-Stack',
               },
               {
                 label: 'GitHub',
