@@ -35,8 +35,22 @@ const config = {
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
+          blogTitle: 'Mudd Tech Blog',
+          blogDescription: 'A blog about web development and whatever other programming things I\'m exploring :)',
+          blogSidebarCount: 10,
+          feedOptions: {
+            title: 'Mudd Tech Blog',
+            description: 'A blog about web development and whatever other programming things I\'m exploring :)',
+            type: 'all',
+            createFeedItems: async (params) => {
+              const { blogPosts, defaultCreateFeedItems, ...rest } = params;
+              return defaultCreateFeedItems({
+                // keep only the 10 most recent blog posts in the feed
+                blogPosts: blogPosts.filter((item, index) => index < 10),
+                ...rest,
+              });
+            },
+          },
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
