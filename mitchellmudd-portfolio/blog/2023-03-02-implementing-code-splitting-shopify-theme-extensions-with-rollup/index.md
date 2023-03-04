@@ -18,7 +18,9 @@ The way that Shopify expects your code to come in can be quite rigid. You aren't
 
 ## What is code splitting and how can rollup js help?
 
-Code splitting is a technique that allows you to split your code into multiple files. This allows you to import files into your main JavaScript file. This is a great way to organize your code and keep it clean. Rollup js is a module bundler that can help you accomplish this. Rollup is the underlying technology that powers [Vite](https://vitejs.dev) -- [an incredibly popular](https://2022.stateofjs.com/en-US/libraries/tier_list?) tool for developing front end applications.
+Code splitting is a technique that allows you to split your code into multiple files. This allows you to import files into your main JavaScript file. This is a great way to organize your code and keep it clean. Rollup js is a module bundler that can help you accomplish this. Rollup is the underlying technology that powers [Vite](https://vitejs.dev) -- [an incredibly popular](https://2022.stateofjs.com/en-US/libraries/tier_list?) tool for developing front end applications...
+
+<!--truncate-->
 
 ## What this post will not teach you
 
@@ -211,3 +213,4 @@ I hope this post has helped you understand how to use code splitting with rollup
 - [Shopify Theme Extension CLI](https://shopify.dev/docs/apps/online-store/theme-app-extensions/getting-started)
 - [What is code splitting?](https://reactjs.org/docs/code-splitting.html)
 - [Rollup js](https://www.rollupjs.org/)
+- [Code Repository](https://github.com/mitchelldirt/code-splitting-example)
