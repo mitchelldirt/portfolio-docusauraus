@@ -2,11 +2,11 @@
 slug: implementing-code-splitting-shopify-theme-extensions-with-rollup
 title: Implementing Code Splitting in Shopify Theme App Extensions using Rollup
 authors: Mitchell
-image: "./Shopify-Rollup.png"
+image: "./Shopify-Rollup-Thumbnail.png"
 tags: [shopify, shopify app, javascript, bundler]
 ---
 
-![Shopify logo and Rollup logo](./Shopify-Rollup.png)
+![Shopify logo and Rollup logo](./Shopify-Rollup-Thumbnail.png)
 
 ## Why would you want to use a theme app extension?
 
