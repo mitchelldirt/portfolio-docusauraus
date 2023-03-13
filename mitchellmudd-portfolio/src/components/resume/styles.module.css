@@ -1,0 +1,28 @@
+.resumeContainerPage1 {
+  width: 8.5in;
+  height: 11in;
+  display: grid;
+  grid-template-areas: 
+  "header" "header" "header" "header"
+  "contact" "summary" "summary" "summary"
+  "portfolio" "portfolio" "portfolio" "portfolio"
+  "project1" "project1" "project2" "project2"
+  "project3" "project3" "project4" "project4";
+  margin-bottom: 24px;
+}
+
+.resumeContainerPage2 {
+  width: 8.5in;
+  height: 11in;
+  display: grid;
+  grid-template-areas: 
+  "header" "header" "header" "header"
+  "skills" "experience" "experience" "experience"
+  "skills" "experience" "experience" "experience"
+  "certifications" "experience" "experience" "experience"
+  "interests" "experience" "experience" "experience";
+}
+
+.redText {
+  color: red;
+}
