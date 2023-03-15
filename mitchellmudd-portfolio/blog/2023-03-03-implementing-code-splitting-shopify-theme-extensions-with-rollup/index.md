@@ -72,6 +72,12 @@ Your package.json should look like this now
 
 ![Screenshot of the package.json file](./packagejson-no-build.png)
 
+**Note**: You'll need to set the `type` to `module` in your package.json file. This is because we're using ES6 modules.
+
+```json
+  "type": "module"
+```
+
 ### Step 5: Create a rollup.config.js file
 
 **Make sure you replace `code-splitting-example` in the file path with your own extension name**
