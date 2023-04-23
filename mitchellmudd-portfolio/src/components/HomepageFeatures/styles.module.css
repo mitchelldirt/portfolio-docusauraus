@@ -8,6 +8,7 @@
 .featureImg {
   height: 300px;
   width: 400px;
+  border-radius: 15px;
 }
 
 .linkIcon {

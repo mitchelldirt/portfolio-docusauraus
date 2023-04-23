@@ -1,14 +1,26 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
-import cityRanker from '../../../static/img/city-ranker-screenshot.png'
-import windMillWeather from '../../../static/img/windmill-weather-screenshot.png'
-import todo from '../../../static/img/todo-screenshot.png'
+import cityRanker from '../../../static/img/cityRanker2.png'
+import windMillWeather from '../../../static/img/windmill Weather.png'
+import taskyImg from '../../../static/img/Tasky.png'
 import TagList from './tagList';
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LaunchIcon from '@material-ui/icons/Launch'
 
 const FeatureList = [
+  {
+    title: 'Tasky',
+    imageLink: taskyImg,
+    description: (
+      <>
+        This is the second todo list app that I've created. I wanted to try out Remix and Prisma, and build something that is truly fullstack. Making a todo list app is a great way to learn a new stack, and Remix is really well suited to this use case. <a href='https://mitchelldirt.github.io/todo-list/'>My first attempt</a> at a todo list app was when I first learned Javascript so I really wanted to improve upon that. I'm very happy with the result! 
+      </>
+    ),
+    tags: ['Remix', 'SQLite', 'Typescript', 'Prisma', 'Vitest', 'Cypress', 'TailwindCSS'],
+    githubLink: 'https://github.com/mitchelldirt/tasky',
+    projectLink: 'https://tasky-remix.fly.dev/'
+  },
   {
     title: 'City Ranker',
     imageLink: cityRanker,
@@ -32,19 +44,7 @@ const FeatureList = [
     tags: ['Typescript', 'TailwindCSS', 'Parcel', 'OpenWeatherAPI', 'TomTomAPI'],
     githubLink: 'https://github.com/mitchelldirt/windmill-weather',
     projectLink: 'https://windmill-weather-4sp3fyjf6-mitchelldirt.vercel.app/'
-  },
-  {
-    title: 'to.do',
-    imageLink: todo,
-    description: (
-      <>
-        This was my first project that felt like a true project. I've seen many variations of the todo list project and sought to go beyond the most basic functionality. Something I learned while doing this is the importance of planning how your app will function ahead of time and keeping your code base clean. I definitely cluttered everything up at the start and spent a good two to three hours reorganizing. After finishing this project I feel way more confident applying types using Typescript.
-      </>
-    ),
-    tags: ['Typescript', 'HTML', 'CSS', 'Webpack'],
-    githubLink: 'https://github.com/mitchelldirt/todo-list',
-    projectLink: 'https://mitchelldirt.github.io/todo-list/'
-  },
+  }
 ];
 
 function Feature({ imageLink, title, description, tags, githubLink, projectLink }) {
