@@ -2,7 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 import cityRanker from '../../../static/img/cityRanker2.png'
-import windMillWeather from '../../../static/img/windmill Weather.png'
+import windMillWeather from '../../../static/img/windmillWeather.png'
 import taskyImg from '../../../static/img/Tasky.png'
 import TagList from './tagList';
 import GitHubIcon from '@material-ui/icons/GitHub'
