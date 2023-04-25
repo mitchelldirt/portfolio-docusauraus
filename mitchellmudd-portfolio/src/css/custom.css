@@ -48,6 +48,10 @@
   width: 30px;
   height: 30px;
   cursor: pointer;
+  fill: white;
+}
+
+.footerIcon-GitHub:hover {
   fill: var(--ifm-color-primary);
 }
 

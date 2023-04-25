@@ -47,10 +47,24 @@
 
 .tagList {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
   padding: 0px !important;
-  margin-left: .5rem !important;
+  width: 75%;
   list-style-type: none;
+}
+
+@media screen and (min-width: 800px) {
+  .tagList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px !important;
+    margin-left: 0.5rem !important;
+    width: 100%;
+    list-style-type: none;
+  }
 }
 
 .tagItem {
