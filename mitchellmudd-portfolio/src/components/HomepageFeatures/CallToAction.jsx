@@ -3,11 +3,11 @@ import styles from './CallToAction.module.css';
 
 const callToActions = [
   {
-    text: 'View my other projects',
-    link: '/projects',
+    text: 'My other projects',
+    link: '/projects?project=1',
   },
   {
-    text: 'View my skills',
+    text: 'My skills',
     link: '/docs/Skills/My-Favorite-Tech-Stack',
   }
 ];

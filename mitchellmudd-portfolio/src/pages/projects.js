@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Layout from '@theme/Layout';
 import { clsx } from 'clsx';
 import styles from './projects.module.css';
@@ -68,6 +68,17 @@ export default function Projects() {
   if (!Array.isArray(projects) || projects.length <= 0) {
     return null;
   }
+
+  useEffect(() => {
+    // Get the current project number from the url query string
+    const urlParams = new URLSearchParams(window.location.search);
+    const projectNumber = urlParams.get('project');
+
+    if (projectNumber) {
+      setCurrentProject(parseInt(projectNumber));
+      return;
+    }
+  }, []);
 
 
   return (
