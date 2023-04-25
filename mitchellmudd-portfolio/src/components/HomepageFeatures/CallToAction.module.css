@@ -9,6 +9,13 @@
   text-align: center;
 }
 
+.callToAction {
+  width: 150px;
+  height: 30px;
+  padding-top: 0;
+  margin-bottom: 3rem;
+}
+
 .callToActionText {
   font-size: 0.6rem;
   font-weight: 600;
@@ -25,7 +32,7 @@
 
 @media screen and (min-width: 800px) {
   .callToActionText {
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
 }
 
