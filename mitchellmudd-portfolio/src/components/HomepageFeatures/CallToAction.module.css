@@ -1,0 +1,41 @@
+.callToActionGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 3rem;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+.callToAction {
+  width: 150px;
+  height: 30px;
+  padding-top: 0;
+  margin-bottom: 3rem;
+}
+
+.callToActionText {
+  font-size: 0.6rem;
+  font-weight: 600;
+  padding: 1rem 1.5rem;
+  border-radius: 4px;
+  background-color: var(--ifm-color-primary-light);
+  color: white;
+  border-radius: 50px;
+}
+
+[data-theme="dark"] .callToActionText {
+  color: black;
+}
+
+@media screen and (min-width: 800px) {
+  .callToActionText {
+    font-size: 0.7rem;
+  }
+}
+
+.callToAction:hover {
+  text-decoration-color: white;
+}
