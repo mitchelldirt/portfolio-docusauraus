@@ -19,6 +19,10 @@
   border-radius: 50px;
 }
 
+[data-theme="dark"] .callToActionText {
+  color: black;
+}
+
 @media screen and (min-width: 800px) {
   .callToActionText {
     font-size: 1rem;
