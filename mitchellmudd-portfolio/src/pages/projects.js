@@ -2,12 +2,10 @@ import React, { useState } from 'react';
 import Layout from '@theme/Layout';
 import { clsx } from 'clsx';
 import styles from './projects.module.css';
-import TagList from '../components/HomepageFeatures/tagList';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import LaunchIcon from '@material-ui/icons/Launch';
 import taskyImg from '../../static/img/taskyImg.png'
 import windmillWeatherImg from '../../static/img/windmillWeather2.png'
 import cityRankerImg from '../../static/img/cityRankerImg.png'
+import Project from '../components/HomepageFeatures/Project';
 
 const projects = [
   {
@@ -58,10 +56,12 @@ export default function Projects() {
   const length = projects.length;
 
   const nextProject = () => {
+    window.scrollTo(0, 0);
     setCurrentProject(currentProject === length - 1 ? 0 : currentProject + 1);
   };
 
   const prevProject = () => {
+    window.scrollTo(0, 0);
     setCurrentProject(currentProject === 0 ? length - 1 : currentProject - 1);
   };
 
@@ -72,42 +72,7 @@ export default function Projects() {
 
   return (
     <Layout title={projects[currentProject].title + ' Project'} description={projects[currentProject].metaDescription}>
-      <h1 className={styles.title}>{projects[currentProject].title}</h1>
-      <div className={styles.projectsContainer}>
-        <div className={styles.mainContent}>
-          <img src={projects[currentProject].imageLink} alt={projects[currentProject].title} />
-          <p>{projects[currentProject].description}</p>
-        </div>
-
-
-        <div className={styles.sidebar}>
-          <div className={styles.tags}>
-            <h2 className={styles.sidebarH2}>Tech Stack</h2>
-            <TagList className={styles.tags} tags={projects[currentProject].tags} />
-          </div>
-
-          <div className={styles.links}>
-            <h2>Links</h2>
-            <div className={styles.linkButtons}>
-              <a
-                target='_blank'
-                href={projects[currentProject].githubLink}
-                aria-label='source code'
-              >
-                <GitHubIcon className={styles.projectLinkIcon} />
-              </a>
-
-              <a
-                target='_blank'
-                href={projects[currentProject].projectLink}
-                aria-label='Live Site'
-              >
-                <LaunchIcon className={styles.projectLinkIcon} />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Project project={projects[currentProject]} isFeatured={false} />
 
       <div className={styles.projectLinks}>
         <button onClick={prevProject}>

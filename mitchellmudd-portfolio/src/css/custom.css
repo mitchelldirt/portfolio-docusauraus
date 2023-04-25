@@ -51,6 +51,17 @@
   fill: white;
 }
 
+.footerIcon-Email {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  fill: white;
+}
+
+.footerIcon-Email:hover {
+  fill: var(--ifm-color-primary);
+}
+
 .footerIcon-GitHub:hover {
   fill: var(--ifm-color-primary);
 }
