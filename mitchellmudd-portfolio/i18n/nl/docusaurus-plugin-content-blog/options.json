@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "Mudd Tech Blog",
+    "description": "The title for the blog used in SEO"
+  },
+  "description": {
+    "message": "A blog about web development and whatever other programming things I'm exploring :)",
+    "description": "The description for the blog used in SEO"
+  },
+  "sidebar.title": {
+    "message": "Recent posts",
+    "description": "The label for the left sidebar"
+  }
+}

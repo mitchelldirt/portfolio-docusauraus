@@ -6,6 +6,7 @@ import CallToActionGroup from '../components/HomepageFeatures/CallToAction';
 import styles from './index.module.css';
 import Project from '../components/HomepageFeatures/Project';
 import taskyImg from '../../static/img/taskyImg.png';
+import Translate from '@docusaurus/Translate';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
