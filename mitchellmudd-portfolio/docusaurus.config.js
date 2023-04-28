@@ -7,7 +7,7 @@ const GitHubIcon = require('@material-ui/icons/GitHub').default;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Hallo, I\'m Mitchell Mudd!',
+  title: "Hallo, I'm Mitchell Mudd!",
   tagline: 'A Software Developer :)',
   url: 'https://mitchellmudd.dev',
   baseUrl: '/',
@@ -20,7 +20,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'nl'],
   },
 
   presets: [
@@ -83,6 +83,10 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          }
 
         ],
       },

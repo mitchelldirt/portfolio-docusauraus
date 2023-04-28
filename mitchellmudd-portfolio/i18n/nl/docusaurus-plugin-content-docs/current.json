@@ -1,0 +1,10 @@
+{
+  "version.label": {
+    "message": "Volgende versie",
+    "description": "The label for version current"
+  },
+  "sidebar.sidebar.category.Skills": {
+    "message": "Vaardigheden",
+    "description": "The label for category Skills in sidebar sidebar"
+  }
+}

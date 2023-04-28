@@ -1,23 +1,23 @@
-# Soft Skills
+# Zachte vaardigheden
 
-These are the soft skills that I use at work and in my own life on a daily basis. There's no way to link to a GitHub repository that shows off these skills, but you can find out if I'm lying in an interview 😆
+Dit zijn de soft skills die ik dagelijks gebruik op het werk en in mijn eigen leven. Er is geen manier om te linken naar een GitHub-repository die deze vaardigheden laat zien, maar je kunt erachter komen of ik lieg in een interview 😆
 
-## Problem Solving
+## Probleemoplossing
 
 ![Image representing problem solving](/img/skills/undraw_problem_solving.png)
 
-## Teamwork
+## Samenwerken
 
 ![Image representing working with another person](/img/skills/undraw_teamwork.png)
 
-## Presenting
+## presenteren
 
 ![Image representing giving a presentation](/img/skills/undraw_presenting.png)
 
-## Content Creation
+## Content creatie
 
 ![Image representing content creation](/img/skills/undraw_content_creation.png)
 
-## Education
+## Opvoeden
 
 ![Image representing teaching somebody](/img/skills/undraw_teaching.png)

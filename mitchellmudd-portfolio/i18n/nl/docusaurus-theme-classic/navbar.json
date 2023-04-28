@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "Mitchell Mudd",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Mitchell Mudd logo van mijn website",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Skills": {
+    "message": "Vaardigheden",
+    "description": "Navbar item with label Skills"
+  },
+  "item.label.Blog": {
+    "message": "Bloggen",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.Projects": {
+    "message": "Projecten",
+    "description": "Navbar item with label Projects"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}
