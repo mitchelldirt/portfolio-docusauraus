@@ -1,6 +1,36 @@
 {
-  "at a todo list app was when I first learned Javascript so I really wanted to improve upon that. I'm very happy with the result!": {
-    "message": "at a todo list app was when I first learned Javascript so I really wanted to improve upon that. I'm very happy with the result!"
+  "indexTitle": {
+    "message": "Hallo, Ik ben Mitchell Mudd!"
+  },
+  "indexSubtitle": {
+    "message": "Een Softwareontwikkelaar :)"
+  },
+  "indexIntroduction": {
+    "message": "Ik woon momenteel in de Verenigde Staten. Ik hou van het buitenleven, dus je zult me ​​meestal vinden tijdens het klimmen, fietsen of wandelen met mijn hond! Ik hou ervan om te blijven leren door nevenprojecten te bouwen en nieuwe (voor mij) technologieën te verkennen. Neem dan gerust contact met mij op!"
+  },
+  "featuredProjectDescriptionPart1": {
+    "message": "Dit is de tweede takenlijst-app die ik heb gemaakt. Ik wilde Remix en Prisma uitproberen en iets bouwen dat echt fullstack is. Het maken van een takenlijst-app is een geweldige manier om een ​​nieuwe stapel te leren, en Remix is ​​echt geschikt voor deze project."
+  },
+  "featuredProjectDescriptionPart2": {
+    "message": "Mijn eerste poging"
+  },
+  "featuredProjectDescriptionPart3": {
+    "message": "tot een takenlijst-app was toen ik Javascript voor het eerst leerde, dus ik wilde dat echt verbeteren. Ik ben erg blij met het resultaat!"
+  },
+  "taskyDescriptionPart1": {
+    "message": "Dit is de tweede takenlijst-app die ik heb gemaakt. Ik wilde Remix en Prisma uitproberen en iets bouwen dat echt fullstack is. Het maken van een takenlijst-app is een geweldige manier om een ​​nieuwe stapel te leren, en Remix is ​​echt geschikt voor deze project."
+  },
+  "taskyDescriptionPart2": {
+    "message": "Mijn eerste poging"
+  },
+  "taskyDescriptionPart3": {
+    "message": "tot een takenlijst-app was toen ik Javascript voor het eerst leerde, dus ik wilde dat echt verbeteren. Ik ben erg blij met het resultaat!"
+  },
+  "cityRankerDescription": {
+    "message": "Deze app ging helemaal over het versterken van wat ik heb geleerd van de React Beta-documentatie. Het probleem dat deze app voor mij oplost, is mijn verlangen om steden te rangschikken waar ik in de toekomst naartoe wil verhuizen! Ik had niet verwacht hier een backend aan toe te voegen, maar ontdekte dat het nodig was om een ​​van mijn API's goed te laten functioneren. Aanvankelijk gebruikte ik Express, maar daarna heb ik alles omgezet naar Next.JS, zodat ik me geen zorgen hoefde te maken over een rekening van Google Cloud. Ik ben erg blij met het inlogsysteem en ongelooflijk trots op dit project!"
+  },
+  "windmillWeatherDescription": {
+    "message": "Windmill Weather (Windmolenweer) is mijn eerste project dat zich bezighoudt met het omgaan met API's. Oorspronkelijk was ik alleen van plan om de OpenWeather API te gebruiken, maar vond het zoeken en hopen op een resultaat onhandig. Nadat ik dat had geleerd, implementeerde ik de 'TomTom fuzzy search' en auto complete API met het zoekvakpakket. Ik heb ook voor het eerst parcel en TailwindCSS geprobeerd tijdens het werken aan dit project. Ik hoop dat je ervan geniet :)"
   },
   "theme.ErrorPageContent.title": {
     "message": "Deze pagina is gecrasht.",
@@ -74,18 +104,6 @@
     "message": "Ouder bericht",
     "description": "The blog post button label to navigate to the older/next post"
   },
-  "theme.blog.post.plurals": {
-    "message": "Een bericht|{count} berichten",
-    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
-  },
-  "theme.blog.tagTitle": {
-    "message": "{nPosts} getagd met \"{tagName}\"",
-    "description": "The title of the page for a blog tag"
-  },
-  "theme.tags.tagsPageLink": {
-    "message": "Laat alle tags zien",
-    "description": "The label of the link targeting the tag list page"
-  },
   "theme.colorToggle.ariaLabel": {
     "message": "Schakel tussen donkere en lichte modus (momenteel {mode})",
     "description": "The ARIA label for the navbar color mode toggle"
@@ -97,6 +115,18 @@
   "theme.colorToggle.ariaLabel.mode.light": {
     "message": "lichte modus",
     "description": "The name for the light color mode"
+  },
+  "theme.blog.post.plurals": {
+    "message": "Een bericht|{count} berichten",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} getagd met \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "Laat alle tags zien",
+    "description": "The label of the link targeting the tag list page"
   },
   "theme.docs.breadcrumbs.navAriaLabel": {
     "message": "Broodkruimels",
@@ -118,9 +148,6 @@
     "message": "Volgende",
     "description": "The label used to navigate to the next doc"
   },
-  "theme.docs.versionBadge.label": {
-    "message": "Versie: {versionLabel}"
-  },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
     "message": "Een artikel getagd|{count} artikelen getagd",
     "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
@@ -128,6 +155,9 @@
   "theme.docs.tagDocListPageTitle": {
     "message": "{nDocsTagged} met \"{tagName}\"",
     "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Versie: {versionLabel}"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
     "message": "Dit is nog niet uitgegeven documentatie voor {siteTitle}, versie {versionLabel}",
@@ -205,10 +235,6 @@
     "message": "Main",
     "description": "The ARIA label for the main navigation"
   },
-  "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "Talen",
-    "description": "The label for the mobile language switcher dropdown"
-  },
   "theme.TOCCollapsible.toggleButtonLabel": {
     "message": "Op deze pagina",
     "description": "The label used by the button on the collapsible TOC component"
@@ -220,6 +246,10 @@
   "theme.blog.post.readMoreLabel": {
     "message": "Lees meer over {title}",
     "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Talen",
+    "description": "The label for the mobile language switcher dropdown"
   },
   "theme.blog.post.readingTime.plurals": {
     "message": "Een minuut leestijd|{readingTime} minuten leestijd",
@@ -249,10 +279,6 @@
     "message": "← Terug naar het hoofdmenu",
     "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
   },
-  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
-    "message": "Toggle navigation bar",
-    "description": "The ARIA label for hamburger menu button of mobile navigation"
-  },
   "theme.docs.sidebar.expandButtonTitle": {
     "message": "Zijbalk uitklappen",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
@@ -260,6 +286,10 @@
   "theme.docs.sidebar.expandButtonAriaLabel": {
     "message": "Zijbalk uitklappen",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Toggle navigation bar",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
   },
   "theme.ErrorPageContent.tryAgain": {
     "message": "Probeer opnieuw",
@@ -272,5 +302,29 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "callToAction.myOtherProjects": {
+    "message": "Mijn andere projecten"
+  },
+  "callToAction.mySkills": {
+    "message": "Mijn vaardigheden"
+  },
+  "project.featuredProject.prefix": {
+    "message": "Uitgelicht project: ",
+    "description": "Featured Project Prefix... literally just says \"Featured Project:\""
+  },
+  "project.techStack": {
+    "message": "Technologieën"
+  },
+  "project.links": {
+    "message": "Koppelingen"
+  },
+  "callToAction.myOtherProjects.link": {
+    "message": "/nl/projects?project=1",
+    "description": "Link to my other projects"
+  },
+  "callToAction.mySkills.link": {
+    "message": "/nl/docs/Skills/My-Favorite-Tech-Stack",
+    "description": "Link to my other projects"
   }
 }

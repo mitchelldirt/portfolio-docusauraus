@@ -1,6 +1,36 @@
 {
-  "at a todo list app was when I first learned Javascript so I really wanted to improve upon that. I'm very happy with the result!": {
+  "indexTitle": {
+    "message": "Hello, I'm Mitchell Mudd"
+  },
+  "indexSubtitle": {
+    "message": "A Software Developer :)"
+  },
+  "indexIntroduction": {
+    "message": "I'm currently living in the United States. I love the outdoors so you'll usually find me rock climbing, biking, or walking with my dog! I love continuing to learn by building side projects and exploring new (to me) technologies. Please feel free to reach out to me!"
+  },
+  "featuredProjectDescriptionPart1": {
+    "message": "This is the second todo list app that I've created. I wanted to try out Remix and Prisma, and build something that is truly fullstack. Making a todo list app is a great way to learn a new stack, and Remix is really well suited to this use case."
+  },
+  "featuredProjectDescriptionPart2": {
+    "message": "My first attempt"
+  },
+  "featuredProjectDescriptionPart3": {
     "message": "at a todo list app was when I first learned Javascript so I really wanted to improve upon that. I'm very happy with the result!"
+  },
+  "taskyDescriptionPart1": {
+    "message": "This is the second todo list app that I've created. I wanted to try out Remix and Prisma, and build something that is truly fullstack. Making a todo list app is a great way to learn a new stack, and Remix is really well suited to this use case."
+  },
+  "taskyDescriptionPart2": {
+    "message": "My first attempt"
+  },
+  "taskyDescriptionPart3": {
+    "message": "at a todo list app was when I first learned Javascript so I really wanted to improve upon that. I'm very happy with the result!"
+  },
+  "cityRankerDescription": {
+    "message": "This app was all about reinforcing what I learned from the React Beta Documentation. The problem this app solves for me is my desire to rank cities that I may want to move to in the future! I didn't expect to add a backend to this, but found that it was necessary to get one of my APIs to function properly. Initially I used express, but then refactored it all to Next.JS so I wouldn't have to worry about getting a bill from Google Cloud. I'm very happy with the login system and incredibly proud of this project!"
+  },
+  "windmillWeatherDescription": {
+    "message": "Windmill weather is my first project that deals with the handling of APIs. Originally I only planned to use the OpenWeather API, but found that searching and hoping for a result was clunky. After learning that I implemented the TomTom fuzzy search and auto complete API with the search box package. I also tried parcel and tailwindcss for the first time in a project. This is my personal favorite project on my portfolio!"
   },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",
@@ -38,6 +68,10 @@
     "message": "caution",
     "description": "The default label used for the Caution admonition (:::caution)"
   },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Scroll back to top",
+    "description": "The ARIA label for the back to top button"
+  },
   "theme.blog.archive.title": {
     "message": "Archive",
     "description": "The page & hero title of the blog archive page"
@@ -45,10 +79,6 @@
   "theme.blog.archive.description": {
     "message": "Archive",
     "description": "The page & hero description of the blog archive page"
-  },
-  "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Scroll back to top",
-    "description": "The ARIA label for the back to top button"
   },
   "theme.blog.paginator.navAriaLabel": {
     "message": "Blog list page navigation",
@@ -249,10 +279,6 @@
     "message": "← Back to main menu",
     "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
   },
-  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
-    "message": "Toggle navigation bar",
-    "description": "The ARIA label for hamburger menu button of mobile navigation"
-  },
   "theme.docs.sidebar.expandButtonTitle": {
     "message": "Expand sidebar",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
@@ -260,6 +286,10 @@
   "theme.docs.sidebar.expandButtonAriaLabel": {
     "message": "Expand sidebar",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Toggle navigation bar",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
   },
   "theme.ErrorPageContent.tryAgain": {
     "message": "Try again",
@@ -272,5 +302,25 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "callToAction.myOtherProjects": {
+    "message": "My other projects"
+  },
+  "callToAction.mySkills": {
+    "message": "My skills"
+  },
+  "project.featuredProject.prefix": {
+    "message": "Featured Project: ",
+    "description": "Featured Project Prefix... literally just says \"Featured Project:\""
+  },
+  "project.techStack": {
+    "message": "Tech Stack"
+  },
+  "project.links": {
+    "message": "Links"
+  },
+  "callToAction.myOtherProjects.link": {
+    "message": "/docs/Skills/My-Favorite-Tech-Stack",
+    "description": "Link to my other projects"
   }
 }

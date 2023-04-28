@@ -7,7 +7,7 @@ const GitHubIcon = require('@material-ui/icons/GitHub').default;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Hallo, I\'m Mitchell Mudd!',
+  title: "Hallo, I'm Mitchell Mudd!",
   tagline: 'A Software Developer :)',
   url: 'https://mitchellmudd.dev',
   baseUrl: '/',

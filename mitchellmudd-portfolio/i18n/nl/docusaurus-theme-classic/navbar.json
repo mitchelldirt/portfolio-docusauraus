@@ -4,19 +4,19 @@
     "description": "The title in the navbar"
   },
   "logo.alt": {
-    "message": "Mitchell Mudd portfolio logo",
+    "message": "Mitchell Mudd logo van mijn website",
     "description": "The alt text of navbar logo"
   },
   "item.label.Skills": {
-    "message": "Skills",
+    "message": "Vaardigheden",
     "description": "Navbar item with label Skills"
   },
   "item.label.Blog": {
-    "message": "Blog",
+    "message": "Bloggen",
     "description": "Navbar item with label Blog"
   },
   "item.label.Projects": {
-    "message": "Projectssss",
+    "message": "Projecten",
     "description": "Navbar item with label Projects"
   },
   "item.label.GitHub": {

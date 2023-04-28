@@ -6,6 +6,7 @@ import taskyImg from '../../static/img/taskyImg.png'
 import windmillWeatherImg from '../../static/img/windmillWeather2.png'
 import cityRankerImg from '../../static/img/cityRankerImg.png'
 import Project from '../components/HomepageFeatures/Project';
+import Translate from '@docusaurus/Translate';
 
 const projects = [
   {
@@ -13,11 +14,20 @@ const projects = [
     imageLink: taskyImg,
     description: (
       <>
-        This is the second todo list app that I've created. I wanted to try out Remix and Prisma, and build something that is truly fullstack. Making a todo list app is a great way to learn a new stack, and Remix is really well suited to this use case. <a href='https://mitchelldirt.github.io/todo-list/'>My first attempt</a> at a todo list app was when I first learned Javascript so I really wanted to improve upon that. I'm very happy with the result!
+        <Translate id="taskyDescriptionPart1">
+          This is the second todo list app that I've created. I wanted to try out Remix and Prisma, and build something that is truly fullstack. Making a todo list app is a great way to learn a new stack, and Remix is really well suited to this use case.
+        </Translate>
+        <a href='https://mitchelldirt.github.io/todo-list/'>
+          <Translate id="taskyDescriptionPart2">
+            My first attempt
+          </Translate>
+        </a>
+        <Translate id="taskyDescriptionPart3">
+          at a todo list app was when I first learned Javascript so I really wanted to improve upon that. I'm very happy with the result!
+        </Translate>
       </>
     ),
-    metaDescription: `This is the second todo list app that I've created. I wanted to try out Remix and Prisma, and build something that is truly fullstack. Making a todo list app is a great way to learn a new stack, and Remix is really well suited to this use case. <a href='https://mitchelldirt.github.io/todo-list/'>My first attempt</a> at a todo list app was when I first learned Javascript so I really wanted to improve upon that. I'm very happy with the result!),
-    metaDescription: 'This is the second todo list app that I\'ve created. I wanted to try out Remix and Prisma, and build something that is truly fullstack. Making a todo list app is a great way to learn a new stack, and Remix is really well suited to this use case. My first attempt at a todo list app was when I first learned Javascript so I really wanted to improve upon that. I\'m very happy with the result!`,
+    metaDescription: `This is the second todo list app that I've created. I wanted to try out Remix and Prisma, and build something that is truly fullstack. Making a todo list app is a great way to learn a new stack, and Remix is really well suited to this use case. <a href='https://mitchelldirt.github.io/todo-list/'>My first attempt</a> at a todo list app was when I first learned Javascript so I really wanted to improve upon that. I'm very happy with the result!`,
     tags: ['Remix', 'SQLite', 'Typescript', 'Prisma', 'Vitest', 'Cypress', 'TailwindCSS'],
     githubLink: 'https://github.com/mitchelldirt/tasky',
     projectLink: 'https://tasky-remix.fly.dev/'
@@ -27,7 +37,10 @@ const projects = [
     imageLink: cityRankerImg,
     description: (
       <>
-        This app was all about reinforcing what I learned from the React Beta Documentation. The problem this app solves for me is my desire to rank cities that I may want to move to in the future! I didn't expect to add a backend to this, but found that it was necessary to get one of my APIs to function properly. Initially I used express, but then refactored it all to Next.JS so I wouldn't have to worry about getting a bill from Google Cloud. I'm very happy with the login system and incredibly proud of this project! </>
+        <Translate id="cityRankerDescription">
+          This app was all about reinforcing what I learned from the React Beta Documentation. The problem this app solves for me is my desire to rank cities that I may want to move to in the future! I didn't expect to add a backend to this, but found that it was necessary to get one of my APIs to function properly. Initially I used express, but then refactored it all to Next.JS so I wouldn't have to worry about getting a bill from Google Cloud. I'm very happy with the login system and incredibly proud of this project!
+        </Translate>
+      </>
     ),
     metaDescription: `This app was all about reinforcing what I learned from the React Beta Documentation. The problem this app solves for me is my desire to rank cities that I may want to move to in the future! I didn't expect to add a backend to this, but found that it was necessary to get one of my APIs to function properly. Initially I used express, but then refactored it all to Next.JS so I wouldn't have to worry about getting a bill from Google Cloud. I'm very happy with the login system and incredibly proud of this project!`,
     tags: ['React', 'Next.JS', 'Serverless Functions', 'PostgreSQL', 'Supabase', 'Express.JS', 'Google Cloud'],
@@ -39,7 +52,9 @@ const projects = [
     imageLink: windmillWeatherImg,
     description: (
       <>
-        Windmill weather is my first project that deals with the handling of APIs. Originally I only planned to use the OpenWeather API, but found that searching and hoping for a result was clunky. After learning that I implemented the TomTom fuzzy search and auto complete API with the search box package. I also tried parcel and tailwindcss for the first time in a project. This is my personal favorite project on my portfolio!
+        <Translate id="windmillWeatherDescription">
+          Windmill weather is my first project that deals with the handling of APIs. Originally I only planned to use the OpenWeather API, but found that searching and hoping for a result was clunky. After learning that I implemented the TomTom fuzzy search and auto complete API with the search box package. I also tried parcel and tailwindcss for the first time in a project. This is my personal favorite project on my portfolio!
+        </Translate>
       </>
     ),
     metaDescription: `Windmill weather is my first project that deals with the handling of APIs. Originally I only planned to use the OpenWeather API, but found that searching and hoping for a result was clunky. After learning that I implemented the TomTom fuzzy search and auto complete API with the search box package. I also tried parcel and tailwindcss for the first time in a project. This is my personal favorite project on my portfolio!`,

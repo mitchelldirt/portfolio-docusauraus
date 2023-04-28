@@ -1,6 +1,6 @@
-# My ♥️ Tech Stack
+# My ♥️ Technologieën
 
-These are my favorite tools and pieces of tech to use! They're the ones that I'm actively working on skilling up in. I also **LOVE** learning new things so this list will be ever changing.
+Dit zijn mijn favoriete tools en stukjes technologie om te gebruiken! Zij zijn degenen waar ik actief aan werk om mijn vaardigheden bij te spijkeren. Ik ben ook **GRAAG** nieuwe dingen aan het leren, dus deze lijst zal voortdurend veranderen.
 
 <div style={{display: 'flex', gap: '50px'}}>
 <skill>
