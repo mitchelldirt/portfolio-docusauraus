@@ -1,7 +1,7 @@
 ---
 slug: i-love-remix
 title: I ♥️ Remix
-#image: "./thumbnail.png"
+image: "./remix.png"
 authors: Mitchell
 tags: [Remix, React, Performance]
 ---
