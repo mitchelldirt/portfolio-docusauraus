@@ -28,7 +28,7 @@ There were three things that I really enjoyed about Remix:
 
 ### Data Flow
 
-![The words “Loader” -> “Action” -> “Component” shown in a circular diagram.](https://remix.run/blog-images/posts/remix-data-flow/loader-action-component.png)
+![The words “Loader” -> “Action” -> “Component” shown in a circular diagram.](loader-action-component.png)
 
 This is my favorite feature of Remix by far! The _Loader => Component => Action_ flow is so simple and intuitive. Within a Remix route, a loader will run first and allows you to fetch data. This would be similar to using the [useEffect](https://react.dev/reference/react/useEffect) hook or the [Tanstack](https://tanstack.com/query/v4/docs/react/guides/queries) query with React. The biggest difference is that a loader runs on the server and fetches the data prior to the component rendering essentially removing the need for loading spinners 🤯.
 
