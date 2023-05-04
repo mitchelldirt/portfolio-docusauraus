@@ -9,7 +9,7 @@ import taskyImg from '../../static/img/taskyImg.png';
 import Translate from '@docusaurus/Translate';
 import LogRocket from 'logrocket';
 
-LogRocket.init('x7a1uf/mitchellmudd-portfolio');
+LogRocket.init('x7a1uf/portfolio');
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
