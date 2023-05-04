@@ -7,6 +7,9 @@ import styles from './index.module.css';
 import Project from '../components/HomepageFeatures/Project';
 import taskyImg from '../../static/img/taskyImg.png';
 import Translate from '@docusaurus/Translate';
+import LogRocket from 'logrocket';
+
+LogRocket.init('x7a1uf/mitchellmudd-portfolio');
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
