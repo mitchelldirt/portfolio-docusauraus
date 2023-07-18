@@ -51,7 +51,7 @@ Conditional types also caused me some problems. The use of many ternaries that t
 
 ### Personal Project
 
-I’ve already started working on a full-stack project that uses TypeScript on both the front-end and back-end. You can check out my progress [here :)](https://github.com/mitchelldirt/woofer-api). It’s a social media app (Twitter clone) that uses Express, Drizzle, Zod, and Postgres. I’m super excited to continue learning more about TypeScript by working on this project! 
+I’ve already started working on a full-stack project that uses TypeScript on both the front-end and back-end. You can check out my progress [here :)](https://github.com/mitchelldirt/woofer). It’s a social media app (Twitter clone) that uses Express, Drizzle, Zod, and Postgres. I’m super excited to continue learning more about TypeScript by working on this project! 
 
 ### TypeScript Type Challenges
 I haven’t started working on this yet, but I’d love to take a crack at some of [these type challenges](https://github.com/type-challenges/type-challenges) from the type challenges repository on GitHub. They have **A TON** of challenges and if I’m ever stuck the channel [Michigan TypeScript](https://www.youtube.com/playlist?list=PLOlZuxYbPik180vcJfsAM6xHYLVxrEgHC) has a solution video for every single one.
