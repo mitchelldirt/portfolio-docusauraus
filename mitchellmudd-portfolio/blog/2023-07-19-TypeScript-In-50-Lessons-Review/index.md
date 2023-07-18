@@ -33,7 +33,7 @@ Now when I run into them I can do a much better job of breaking each part down u
 
 ### I just like it 🫢
 
-This book has a lot of solid content that truly justified the price for me ($49 right now for the hardcover book and e-book). I learned how to properly type functions and learned that there’s a time and place for explicit typing and that implicit typing can save you loads of mental overhead. I didn’t even know about value types before reading this book 🤯! The writing style and language used it easy to follow and like all the fun chapter drawings haha.
+This book has a lot of solid content that truly justified the price for me ($49 right now for the hardcover book and e-book). I learned how to properly type functions and learned that there’s a time and place for explicit typing and that implicit typing can save you loads of mental overhead. I didn’t even know about value types before reading this book 🤯! The writing style and language used is easy to follow and I like all the fun chapter drawings haha.
 
 ## The hard parts
 
