@@ -12,6 +12,8 @@ I loved TypeScript in 50 Lessons! The book divvies up the fundamentals along wit
 
 The book is written by the brilliant Stefan Baumgartner. He’s a TypeScript wizard and I always end up running into his articles. He recently announced a new book “The TypeScript Cookbook” which will be released through O’Reilly Books and you can find out more about him [here](https://fettblog.eu/about/). Now I’ll get on with the review 🤪
 
+<!--truncate-->
+
 ## The good parts
 
 ### The Book Holds Up
