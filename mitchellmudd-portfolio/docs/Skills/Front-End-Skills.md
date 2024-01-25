@@ -1,28 +1,54 @@
 # Front End Skills/Technologies
 
-<div style={{display: 'flex', gap: '50px'}}>
-<skill>
+<div class="skillContainer">
 
-## Typescript 
-<img height="128px" width="128px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
-</skill>
-<skill>
+<skill class="skill">
 
-## Javascript
-<img height="128px" width="128px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-</skill>
-</div>
+## React
 
-
-<div style={{display: 'flex', gap: '50px'}}>
-<skill>
-
-## React / Remix
 <img height="128px" width="128px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-</skill>          
-<skill>
+</skill>
+
+<skill class="skill">
 
 ## TailwindCSS
+
 <img height="128px" width="128px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
 </skill>
-</div>          
+
+<skill class="skill">
+
+## Remix
+
+<img height="128px" width="128px" src="/img/skills/remix.svg" />
+</skill>
+
+<skill class="skill">
+
+## Zustand
+
+<img height="128px" width="128px" src="/img/skills/zustandLogo.png" />
+</skill>
+
+<skill class="skill">
+
+## Storybook
+
+<img height="128px" width="128px" src="/img/skills/storybookLogo.png" />
+</skill>
+
+<skill class="skill">
+
+## Cypress
+
+<img height="128px" width="128px" src="/img/skills/cypressLogo.png" />
+</skill>
+
+<skill class="skill">
+
+## Typescript
+
+<img height="128px" width="128px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
+</skill>
+
+</div>

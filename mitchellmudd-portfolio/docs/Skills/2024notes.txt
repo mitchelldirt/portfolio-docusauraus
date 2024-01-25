@@ -1,0 +1,9 @@
+2024 Goals:
+CHANGE THIS ONE UP - make it a paragraph about what you want to learn and improve upon this year. Then below that put a flex box of all of the tech you talked about
+
+3. DSA
+4. Mongo
+5. Microservices
+6. Redis (caching)
+
+

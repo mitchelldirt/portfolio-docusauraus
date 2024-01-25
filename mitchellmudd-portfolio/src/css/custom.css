@@ -84,3 +84,24 @@
 .footer__link-separator {
   display: none;
 }
+
+.skillContainer {
+  display: flex;
+  gap: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.skill {
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill>img {
+  height: 128px;
+}
