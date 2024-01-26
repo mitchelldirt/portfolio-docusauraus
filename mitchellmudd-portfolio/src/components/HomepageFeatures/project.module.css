@@ -78,7 +78,7 @@
   flex-direction: column;
   text-align: left;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .links {
